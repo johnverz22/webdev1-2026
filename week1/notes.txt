@@ -1,0 +1,75 @@
+    HTML - HyperText Markup Language
+
+
+    <h1>This is the biggest heading </h1>
+    <h1> --> tag, element, node
+    --> enclosed with angle brackets
+    --> usually comes by pair, opening and closing tags
+
+    <p>This is a large composition</p>
+
+    CSS -- cascading stylesheet
+
+
+    <div>
+        <h1>Title</h1>
+        <p>This is all about HTML.</p>
+    </div>
+
+
+    HTML5
+     - semantic
+
+
+
+
+    HTML
+    ----------------------------
+    <html>
+    <head>
+        <title>Web title</title>
+    </head>
+    <body>
+        <div id="header">
+            <ul>
+                <li>Link 1</li>
+                <li>Link 1</li>
+
+            </ul>
+        </div>
+        <div id="main">
+            <p>Contents go here</p>
+        </div>
+
+        <div id="footer">
+            Some links here
+        </div>
+    </body>
+    </html>
+
+
+    
+    HTML5
+    -----
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+
+        <title>Web title</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a>Link 1</a>
+                <a>Link 2</a>
+            </nav>
+        </header>
+        <main>
+            <p>Contents go here</p>
+        </main>
+
+        <footer>
+            Some links here
+        </footer>
+    </body>
+    </html>
