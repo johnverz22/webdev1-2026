@@ -129,12 +129,6 @@ Open `blog.html` and go inside its `<main>` tag. This page uses special tags mea
 * Directly below the image (but still inside the `<figure>`), add a `<figcaption>` tag. Type a caption like "My first HTML layout."
 
 ---
-## Rubric
-
-Here is a comprehensive 50-point grading rubric you can attach to the end of Activity 1. It balances technical accuracy (following the HTML rules) with content substantiality (ensuring students put genuine effort into their writing).
-
----
-
 ## Activity 1 Grading Rubric (50 Points Total)
 
 | Evaluation Criteria | Excellent | Proficient | Needs Work | Score |
