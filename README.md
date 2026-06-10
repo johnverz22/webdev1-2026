@@ -1,4 +1,4 @@
-# Hi, I'm **Johnny Verzola**
+# Hi, I'm **John Verz**
 
 ## About Me
 
