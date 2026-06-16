@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        .badge{
+            text-align: center;
+            width: 180px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .avatar{
+            width: 80px;
+            height: 80px;
+            background-color: #6c63ff;
+            border-radius: 50%;
+            margin: 0 auto 12px;
+            font-size: 50px;
+
+            /*
+            margin: 0 0 12px 0;
+            margin: 0 0 12px;
+            */
+        }
+        .name{
+            font-weight: bold;
+            font-size: 1rem;
+            color: #2d3436;
+            margin-bottom: -7px;
+            line-height: 1;
+        }
+        .role{
+            font-size: .75rem;
+            color:#636e72;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1;
+        }
+
+        /* p{
+            font-size: 16px;
+            line-height: 2;
+        } */
+
+        #intermediate{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            box-sizing: content-box;
+            width: 200px;
+            padding: 30px;
+            border: 4px solid #353a80;
+            margin: 10px;
+            background-color: #DDE3F0;
+            color: #293241;
+            text-align: center;
+            font-weight: bold;
+            font-size: .85rem;
+        }
+        
+        .stack .card{
+            font-family: Arial, Helvetica, sans-serif;
+            box-sizing: border-box;
+            width: 100%;
+            padding: 12px 16px;
+            border-left: 4px solid white;
+            margin-bottom: 8px;
+        }
+
+        .card .title{
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+
+        .card .body{
+            font-size: .75rem;
+        }
+
+        .card.info{
+            background-color: #EBF8FF;
+            border-left-color: #3182CE;
+            color:  #2B6CB0;
+        }
+
+        .card.success{
+            background-color: #F0FFF4;
+            border-left-color: #38A169;
+            color:  #276749;
+        }
+
+        .card.warning{
+            background-color: #FFFBEB;
+            border-left-color: #D69E2E;
+            color:  #975A16;
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <div class="badge">
+            <div class="avatar">
+                👴
+            </div>
+            <p class="name">Kian Estigoy</p>
+            <p class="role">Senior Citizen</p>
+        </div>
+
+
+        <div id="intermediate">
+            <p>Content Area</p>
+            <p>padding+border included</p>
+        </div>
+        
+        <div class="stack">
+            <div class="card info">
+                <p class="title">Info Alert</p>
+                <p class="body">this is an information message for your.</p>
+            </div>
+
+            <div class="card success">
+                <p class="title">Success Alert</p>
+                <p class="body">Your chagnes were saved successfully!</p>
+            </div>
+
+            <div class="card warning">
+                <p class="title">Warning Alert</p>
+                <p class="body">Please review before you proceed.</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
