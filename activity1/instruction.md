@@ -129,15 +129,23 @@ Open `blog.html` and go inside its `<main>` tag. This page uses special tags mea
 * Directly below the image (but still inside the `<figure>`), add a `<figcaption>` tag. Type a caption like "My first HTML layout."
 
 ---
-## Activity 1 Grading Rubric (50 Points Total)
+## Grading Rubric
 
-| Evaluation Criteria | Excellent | Proficient | Needs Work | Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Semantic Architecture (15 pts)**<br>*Did you use the correct HTML "boxes"?* | **(13–15 pts)** Flawless use of tags (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`). Tags are properly nested and closed. Only one `<main>` is used per page. | **(7–12 pts)** Mostly correct, but contains minor structural errors (e.g., mixing up `<section>` and `<article>`, or forgetting a closing tag). | **(0–6 pts)** Missing core structural tags. Everything is just loosely thrown onto the page without semantic meaning, or layout is broken. | **/15** |
-| **2. Content Substantiality & Effort (15 pts)**<br>*Did you write meaningful, personalized content?* | **(13–15 pts)** Exceptional effort. The "About Me" is descriptive, project descriptions are clear, and the blog post shows genuine thought and reflection on the learning process. | **(7–12 pts)** Content is present but brief or slightly generic. The blog post might be only one short sentence, or project descriptions lack detail. | **(0–6 pts)** Bare minimum effort. Uses 1-word answers, excessive "Lorem Ipsum" dummy text, or leaves sections completely blank. | **/15** |
-| **3. Navigation & File Structure (10 pts)**<br>*Does the website actually work?* | **(9–10 pts)** All 4 files are named correctly. The navigation menu is identical on all pages, and every link works flawlessly without "File Not Found" errors. | **(5–8 pts)** Files exist, but 1 or 2 links are broken, or a page is missing the updated navigation menu. | **(0–4 pts)** Missing files, broken relative file paths, or severe inconsistencies across the master templates. | **/10** |
-| **4. Media & Accessibility (10 pts)**<br>*Is the site inclusive and media-ready?* | **(9–10 pts)** Images load perfectly with descriptive `alt` text. The contact form correctly pairs every `<label>` with its matching `<input>`. | **(5–8 pts)** Images load but are missing `alt` text, or form labels exist but are not logically connected to the input fields. | **(0–4 pts)** Broken image links (`src` errors), completely missing `alt` text, and form inputs are placed without labels. | **/10** |
-| **Total Score** | | | | **__/50** |
+- Semantic Architecture (15 points)
+  - Correct use of structural tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<aside>`
+  - Tags are properly nested and closed
+  - Only one `<main>` is used per page
+- Content Substantiality & Effort (15 points)
+  - "About Me" section is descriptive and personalized
+  - Project descriptions are clear and meaningful
+  - Blog post shows genuine thought and reflection
+- Navigation & File Structure (10 points)
+  - All 4 files are named correctly (`index.html`, `projects.html`, `contact.html`, `blog.html`)
+  - Navigation menu is identical across all pages
+  - All internal links work without "File Not Found" errors
+- Media & Accessibility (10 points)
+  - Images load with descriptive `alt` text
+  - Contact form correctly pairs every `<label>` with its matching `<input>`
 
 ---
 

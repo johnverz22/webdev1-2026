@@ -73,12 +73,18 @@ Instead of telling you which tags to use, I will describe what the content *is*.
 
 ---
 
-## Activity 2 Grading Rubric (50 Points Total)
+## Grading Rubric
 
-| Evaluation Criteria | Excellent | Proficient | Needs Work | Score |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. Semantic Decision Making (20 pts)** | **(17–20 pts)** Every requirement is matched with the most appropriate semantic tag (e.g., `<nav>` for links, `<article>` for reviews, `<table>` for specs). Decisions show a deep understanding of content meaning. | **(12–16 pts)** Most tags are semantic, but some choices are generic (e.g., using a `<section>` where an `<article>` or `<aside>` was more appropriate). | **(0–11 pts)** Heavy reliance on generic tags or incorrect usage of semantic elements (e.g., using `<nav>` for a list of features). | **/20** |
-| **2. Document Structure & Hierarchy (10 pts)** | **(9–10 pts)** Headings are used in a perfect logical progression. The page has a clear beginning, middle, and end using structural landmarks. | **(6–8 pts)** Mostly logical, but might have minor issues like skipping a heading level or misplacing a structural tag. | **(0–5 pts)** Disorganized structure. Headings are used randomly, or core landmark tags (like those for headers/footers/main) are missing. | **/10** |
-| **3. Technical Implementation (10 pts)** | **(9–10 pts)** The data grid (specs) is perfectly structured. The form is fully accessible with correctly connected labels. Images have meaningful alternative text. | **(6–8 pts)** Implementation is functional but has minor errors (e.g., missing a label-input connection or a missing table header). | **(0–5 pts)** Technical elements are broken. The grid is unreadable in HTML, or the form is missing labels entirely. | **/10** |
-| **4. Content Quality & Logic (10 pts)** | **(9–10 pts)** Fictional product details are consistent and creative. The page feels like a real, professional landing page. | **(6–8 pts)** Content is present but feels rushed or contains "placeholder" text that doesn't fit the context. | **(0–5 pts)** Minimalist content. Hard to understand what the product is or what the sections represent. | **/10** |
-| **Total Score** | | | | **__/50** |
+- Semantic Decision Making (20 points)
+  - Every requirement matched with the most appropriate semantic tag (e.g., `<nav>` for links, `<article>` for reviews, `<table>` for specs)
+  - Decisions show understanding of content meaning, not just generic container use
+- Document Structure & Hierarchy (10 points)
+  - Headings used in a logical progression without skipping levels
+  - Page has a clear beginning, middle, and end using structural landmarks
+- Technical Implementation (10 points)
+  - Data grid (specs table) is correctly structured with proper HTML table elements
+  - Form is fully accessible with correctly connected labels and inputs
+  - Images have meaningful alternative text
+- Content Quality & Logic (10 points)
+  - Fictional product details are consistent and creative
+  - Page reads like a real, professional product landing page
