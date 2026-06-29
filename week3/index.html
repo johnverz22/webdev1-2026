@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <style>
+        a{
+            text-decoration: none;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .menu-btn{
+            display: none;
+        }
+
+        @media (max-width: 480px){
+            ul{
+                display:none;
+            }
+            .menu-btn{
+                display: block;
+            }
+
+            ul.open{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <span class="material-symbols-outlined menu-btn">
+        menu
+        </span>
+        <ul class="menu-links">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    <script>
+        document.querySelector(".menu-btn").addEventListener("click", function(){
+            const menu = document.querySelector(".menu-links");
+            menu.classList.toggle("open");
+            /*
+                menu.classList.add("open");
+                menu.classList.remove("open");
+            */
+        })
+    </script>
+</body>
+</html>
